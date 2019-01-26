@@ -1,6 +1,6 @@
-import {combineReducers} from 'redux';
+import { combineReducers } from 'redux';
 import addItem from './addItem';
 
 export default combineReducers({
-    addItem:addItem
-})
+	addItem: addItem,
+});
