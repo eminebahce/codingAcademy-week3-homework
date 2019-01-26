@@ -7,10 +7,10 @@ function ModelDetails(props) {
 			{props.items.addItem.map(el => {
 				return (
 					<ul key={el.id}>
-						<li>{el.key}</li>
-						<li>{el.manufacturer}</li>
-						<li>{el.year}</li>
-						<li>{el.origin}</li>
+						<li>Name: {el.key}</li>
+						<li>Manufacturer: {el.manufacturer}</li>
+						<li>Year: {el.year}</li>
+						<li>Origin: {el.origin}</li>
 					</ul>
 				);
 			})}
